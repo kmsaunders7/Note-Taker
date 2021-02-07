@@ -17,7 +17,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## DEPLOYMENT on HEROKU
 Visit the website:
-[Webpage Link](https://dashboard.heroku.com/apps/lit-sea-88683)
+[Webpage Link](https://lit-sea-88683.herokuapp.com/)
 
 ## HOW TO USE 
 NPM INIT -y
