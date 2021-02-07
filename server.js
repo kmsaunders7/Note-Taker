@@ -50,7 +50,7 @@ app.post('/api/notes/', (req, res) => {
         fs.writeFile(('db/db.json'), JSON.stringify(data), function (err) {
             if (err) throw err;
             console.log('Saved!');
-            location.reload()
+            res.json(data)
           });
     })   
     
@@ -70,6 +70,7 @@ app.delete('/api/notes/:id', (req, res) => {
         fs.writeFile(path.join(_dirname + 'db/db.json'), result, function (err) {
             if (err) throw err;
             console.log('Saved!');
+            res.json(data)
           });
     })
 
